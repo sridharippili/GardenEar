@@ -1,0 +1,28 @@
+name: GardenEar
+options:
+  bundleIdPrefix: com.yourname
+  deploymentTarget:
+    iOS: "16.0"
+
+packages:
+  SQLite:
+    url: https://github.com/stephencelis/SQLite.swift
+    exactVersion: "0.15.3"
+
+targets:
+  GardenEar:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: GardenEar
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.gardenear
+        SWIFT_VERSION: "5.0"
+        IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+        INFOPLIST_FILE: GardenEar/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - package: SQLite
+        product: SQLite

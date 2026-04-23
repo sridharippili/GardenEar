@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --base base --head feature/gardenear-app --title 'GardenEar iOS app — full session build \\(Prompts 1–7\\)' --body ' *)",
+      "Bash(git credential *)",
+      "Bash(gh auth *)",
+      "Bash(security find-internet-password *)"
+    ]
+  }
+}

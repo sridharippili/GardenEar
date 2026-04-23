@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064B9B197058A2DABF8CD3EC /* ModelDownloadCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DEFE2A95252F57F0681B06 /* ModelDownloadCard.swift */; };
+		1051903A2B59CEE5DDA57D5B /* LifeStageBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700192E709C4295F256863AE /* LifeStageBadge.swift */; };
+		146617A3CAF35D263F25FCC2 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD89D24AC504AF4946DEC96 /* LocationService.swift */; };
+		1A8743225AF609B2817257E9 /* SpeciesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D9E044913D97CA9F06D29 /* SpeciesRow.swift */; };
+		1D1D6EDBEDEACBC3D3CE10ED /* ShareableFieldNotesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35772D0845E69DFC8CB9B43 /* ShareableFieldNotesCard.swift */; };
+		2464D45C9A9D2ABF4D4D8074 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5D38D3B8616C9A44818B0 /* NetworkMonitor.swift */; };
+		28021C872B9E8A0DF44351A3 /* GardenEarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868934444C2ED233B0C78193 /* GardenEarApp.swift */; };
+		2D498A5969B6C312E68B6E42 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53B79B20F6C65D5A5833442 /* DatabaseManager.swift */; };
+		2FCF418EDF2F140802908B99 /* NatureLMProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23317441FD7D09230B7808E0 /* NatureLMProvider.swift */; };
+		44BCFE23D0161EF1149CFDA6 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC46182C484586F30B6670E /* RecordView.swift */; };
+		4C1D77ECBBDB687B8E5ACB66 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A39854D60DA9BFE8A1B37 /* ResultCard.swift */; };
+		50A4144598AD6F2FFC864192 /* SightingDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E1D54FA1BDB9BFF83CF78A /* SightingDetailViewModel.swift */; };
+		536C50FC864F507FED31AC79 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6D014889C9E8A74892623 /* WaveformView.swift */; };
+		5B1AFFC105938FA0F160C15E /* MonthlyBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335887B5B1795C488C96B491 /* MonthlyBarChart.swift */; };
+		620F2D6DB4AC2B37E5805397 /* SightingMapCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA905B97B386205BD0936636 /* SightingMapCard.swift */; };
+		63A9B8284D43DC0723A3E76C /* BirdNET_GLOBAL_6K_V2.4_Labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18AF2322B28B2A1911FD05B5 /* BirdNET_GLOBAL_6K_V2.4_Labels.txt */; };
+		6606CD69E241AFECA4121F06 /* SightingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC89E1179D15FD65ABA0B1C /* SightingRow.swift */; };
+		6AD879B00096BB7B7F145798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE444F72ED53CDEBC7CF694 /* Assets.xcassets */; };
+		7028D65877791E4C370DDEEB /* DeviceCapabilityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5AB9ED4E5A4606E7495BD /* DeviceCapabilityService.swift */; };
+		72032EB986D9D550C25780C4 /* SightingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BEDD1D563D5A00ACBDB12 /* SightingDetailView.swift */; };
+		7591BB821D8C8A1B2C4EA07F /* AppIconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A5E4902ED1B4D7BBDE711 /* AppIconGenerator.swift */; };
+		76019D642E7B843DAA04963D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60F3F65321B932D3A07DCF /* MapView.swift */; };
+		7C70B4C05E20EE37A6EB3235 /* Pods_GardenEar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA9062FC74A7D986FB50C6B /* Pods_GardenEar.framework */; };
+		847E8715D82DF263B6186B40 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C9738B9FDE94DF2EFD39 /* JournalView.swift */; };
+		89AC44E43A93DFFB7E667442 /* NatureLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91805B53DD481EC6DCFD35 /* NatureLMService.swift */; };
+		8D17AB4272F22233A2FB87EC /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D44BAE742464DA2224532 /* JournalViewModel.swift */; };
+		918C588E46F5D054CB5358BB /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158F04AF9564E61FF09CC8BC /* ScoreViewModel.swift */; };
+		9363FEC552A82F18965C1F7B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B087B86ED7D78E0FF779234 /* Theme.swift */; };
+		9897312868894E2F08B92D0E /* MonthlyScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1CB968027C09BAEFC3FAB /* MonthlyScore.swift */; };
+		9ECB0641DE1473E5620779A6 /* AudioIdentificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBDA4F7E6B165867139154 /* AudioIdentificationService.swift */; };
+		ABFB29C6DE910BE31F472724 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 1961FF7985C28BBC21DE18F1 /* SQLite */; };
+		B1F9EE297A1F8DF273BD7D05 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EBD6065965AE192859F36 /* MapViewModel.swift */; };
+		B31AE954662956F46325B2B4 /* BirdSoundClassifierProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CD57A963F95DBC7AE57B1E /* BirdSoundClassifierProvider.swift */; };
+		B8946F0B8E42349227AA389D /* Sighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F83A09DC2E3A770272BD13 /* Sighting.swift */; };
+		BDA3FA3B83E57FF553310B11 /* OfflineModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BDE46568E5148BB046B8CB /* OfflineModelManager.swift */; };
+		C28E739CC0329455862902D0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72FE1449BF0B7384F0A4D03 /* SettingsView.swift */; };
+		C502F5CF771493484531F277 /* BirdNETLocalProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D8646E240EB9D1E0D21259 /* BirdNETLocalProvider.swift */; };
+		DD2F24392C398110E240E905 /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4492789CEE77FA5DB2FDE3 /* RecordViewModel.swift */; };
+		DDC6C6A879B3855A1667EB61 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981CD8230EE9CCED7E47770F /* ScoreView.swift */; };
+		DF8F8D767E08674C23FEE6C9 /* SightingMapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8C3A8852910108CF56CCB /* SightingMapPin.swift */; };
+		E9FE513914CDDBC4FC868351 /* BirdNETProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B489679E1BED04E870B266B /* BirdNETProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CD89D24AC504AF4946DEC96 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		12A5AB9ED4E5A4606E7495BD /* DeviceCapabilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCapabilityService.swift; sourceTree = "<group>"; };
+		137A39854D60DA9BFE8A1B37 /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+		158F04AF9564E61FF09CC8BC /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		18AF2322B28B2A1911FD05B5 /* BirdNET_GLOBAL_6K_V2.4_Labels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BirdNET_GLOBAL_6K_V2.4_Labels.txt; sourceTree = "<group>"; };
+		1AE444F72ED53CDEBC7CF694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23317441FD7D09230B7808E0 /* NatureLMProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureLMProvider.swift; sourceTree = "<group>"; };
+		2AA9062FC74A7D986FB50C6B /* Pods_GardenEar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GardenEar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE1CB968027C09BAEFC3FAB /* MonthlyScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyScore.swift; sourceTree = "<group>"; };
+		335887B5B1795C488C96B491 /* MonthlyBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyBarChart.swift; sourceTree = "<group>"; };
+		365A0C4BAF10AF6554537555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		459D9E044913D97CA9F06D29 /* SpeciesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesRow.swift; sourceTree = "<group>"; };
+		4BC0C9738B9FDE94DF2EFD39 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		52C6D014889C9E8A74892623 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		6B087B86ED7D78E0FF779234 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		6C4492789CEE77FA5DB2FDE3 /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		700192E709C4295F256863AE /* LifeStageBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeStageBadge.swift; sourceTree = "<group>"; };
+		711EBD6065965AE192859F36 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		78E1D54FA1BDB9BFF83CF78A /* SightingDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingDetailViewModel.swift; sourceTree = "<group>"; };
+		79DEFE2A95252F57F0681B06 /* ModelDownloadCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDownloadCard.swift; sourceTree = "<group>"; };
+		7B9BEDD1D563D5A00ACBDB12 /* SightingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingDetailView.swift; sourceTree = "<group>"; };
+		85204B07D08AA31DB1767C8A /* GardenEar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		868934444C2ED233B0C78193 /* GardenEarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenEarApp.swift; sourceTree = "<group>"; };
+		93BDE46568E5148BB046B8CB /* OfflineModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModelManager.swift; sourceTree = "<group>"; };
+		981CD8230EE9CCED7E47770F /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		9B489679E1BED04E870B266B /* BirdNETProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdNETProvider.swift; sourceTree = "<group>"; };
+		9DEF90DFE626BAFE22534044 /* Pods-GardenEar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardenEar.release.xcconfig"; path = "Target Support Files/Pods-GardenEar/Pods-GardenEar.release.xcconfig"; sourceTree = "<group>"; };
+		B53B79B20F6C65D5A5833442 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		B6A5D38D3B8616C9A44818B0 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		BBC89E1179D15FD65ABA0B1C /* SightingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingRow.swift; sourceTree = "<group>"; };
+		BBCBDA4F7E6B165867139154 /* AudioIdentificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioIdentificationService.swift; sourceTree = "<group>"; };
+		BDD0ABB3F514FD1243078DE4 /* Pods-GardenEar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardenEar.debug.xcconfig"; path = "Target Support Files/Pods-GardenEar/Pods-GardenEar.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C8C3A8852910108CF56CCB /* SightingMapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingMapPin.swift; sourceTree = "<group>"; };
+		CA905B97B386205BD0936636 /* SightingMapCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingMapCard.swift; sourceTree = "<group>"; };
+		CE91805B53DD481EC6DCFD35 /* NatureLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureLMService.swift; sourceTree = "<group>"; };
+		D4F83A09DC2E3A770272BD13 /* Sighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sighting.swift; sourceTree = "<group>"; };
+		D6CD57A963F95DBC7AE57B1E /* BirdSoundClassifierProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdSoundClassifierProvider.swift; sourceTree = "<group>"; };
+		DCC46182C484586F30B6670E /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		DE60F3F65321B932D3A07DCF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E35772D0845E69DFC8CB9B43 /* ShareableFieldNotesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareableFieldNotesCard.swift; sourceTree = "<group>"; };
+		E72FE1449BF0B7384F0A4D03 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F26D44BAE742464DA2224532 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
+		F64A5E4902ED1B4D7BBDE711 /* AppIconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconGenerator.swift; sourceTree = "<group>"; };
+		F6D8646E240EB9D1E0D21259 /* BirdNETLocalProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdNETLocalProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		344058F46BB1E6F23D249712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB29C6DE910BE31F472724 /* SQLite in Frameworks */,
+				7C70B4C05E20EE37A6EB3235 /* Pods_GardenEar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1733FB8BBACBAE711AF41F0A /* GardenEar */ = {
+			isa = PBXGroup;
+			children = (
+				6F58DCF92B3E858B19A7388C /* App */,
+				F305370B9D37D0B206C0A99C /* Components */,
+				86BEC99564C9C67638140720 /* Database */,
+				406E1DF484A0ECBC25ED4389 /* Models */,
+				7981B6BE511C652478706F52 /* Resources */,
+				49B515061BC217ECF4FE9B80 /* Screens */,
+				84CE4CA2C5EF8B7ED1F686FD /* Services */,
+			);
+			path = GardenEar;
+			sourceTree = "<group>";
+		};
+		406E1DF484A0ECBC25ED4389 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EE1CB968027C09BAEFC3FAB /* MonthlyScore.swift */,
+				D4F83A09DC2E3A770272BD13 /* Sighting.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41A2C2079E6ADFA0931A65CD /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DE60F3F65321B932D3A07DCF /* MapView.swift */,
+				711EBD6065965AE192859F36 /* MapViewModel.swift */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
+		4573FF2493D28658CB11297B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9062FC74A7D986FB50C6B /* Pods_GardenEar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49B515061BC217ECF4FE9B80 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B4915726F09C8D5730CBC905 /* JournalScreen */,
+				41A2C2079E6ADFA0931A65CD /* MapScreen */,
+				E5E722CC5A961F0A410157CA /* RecordScreen */,
+				C5D74F9EF4CC82BBC17D60E0 /* ScoreScreen */,
+				9BBBFC1F07FF1F50CEA518EB /* SettingsScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6F58DCF92B3E858B19A7388C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F64A5E4902ED1B4D7BBDE711 /* AppIconGenerator.swift */,
+				868934444C2ED233B0C78193 /* GardenEarApp.swift */,
+				6B087B86ED7D78E0FF779234 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		704498ECD19B97DB97725C38 = {
+			isa = PBXGroup;
+			children = (
+				1733FB8BBACBAE711AF41F0A /* GardenEar */,
+				B019D5E65E9121BACA1C0374 /* Products */,
+				BF7B3FF1CB0833B7DE0B36C7 /* Pods */,
+				4573FF2493D28658CB11297B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7981B6BE511C652478706F52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AE444F72ED53CDEBC7CF694 /* Assets.xcassets */,
+				18AF2322B28B2A1911FD05B5 /* BirdNET_GLOBAL_6K_V2.4_Labels.txt */,
+				365A0C4BAF10AF6554537555 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83A45A049084D1303359E710 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				F6D8646E240EB9D1E0D21259 /* BirdNETLocalProvider.swift */,
+				9B489679E1BED04E870B266B /* BirdNETProvider.swift */,
+				D6CD57A963F95DBC7AE57B1E /* BirdSoundClassifierProvider.swift */,
+				23317441FD7D09230B7808E0 /* NatureLMProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		84CE4CA2C5EF8B7ED1F686FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BBCBDA4F7E6B165867139154 /* AudioIdentificationService.swift */,
+				12A5AB9ED4E5A4606E7495BD /* DeviceCapabilityService.swift */,
+				0CD89D24AC504AF4946DEC96 /* LocationService.swift */,
+				CE91805B53DD481EC6DCFD35 /* NatureLMService.swift */,
+				B6A5D38D3B8616C9A44818B0 /* NetworkMonitor.swift */,
+				93BDE46568E5148BB046B8CB /* OfflineModelManager.swift */,
+				83A45A049084D1303359E710 /* Providers */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		86BEC99564C9C67638140720 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B53B79B20F6C65D5A5833442 /* DatabaseManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		9BBBFC1F07FF1F50CEA518EB /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E72FE1449BF0B7384F0A4D03 /* SettingsView.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		B019D5E65E9121BACA1C0374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85204B07D08AA31DB1767C8A /* GardenEar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4915726F09C8D5730CBC905 /* JournalScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0C9738B9FDE94DF2EFD39 /* JournalView.swift */,
+				F26D44BAE742464DA2224532 /* JournalViewModel.swift */,
+				7B9BEDD1D563D5A00ACBDB12 /* SightingDetailView.swift */,
+				78E1D54FA1BDB9BFF83CF78A /* SightingDetailViewModel.swift */,
+			);
+			path = JournalScreen;
+			sourceTree = "<group>";
+		};
+		BF7B3FF1CB0833B7DE0B36C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDD0ABB3F514FD1243078DE4 /* Pods-GardenEar.debug.xcconfig */,
+				9DEF90DFE626BAFE22534044 /* Pods-GardenEar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5D74F9EF4CC82BBC17D60E0 /* ScoreScreen */ = {
+			isa = PBXGroup;
+			children = (
+				981CD8230EE9CCED7E47770F /* ScoreView.swift */,
+				158F04AF9564E61FF09CC8BC /* ScoreViewModel.swift */,
+			);
+			path = ScoreScreen;
+			sourceTree = "<group>";
+		};
+		E5E722CC5A961F0A410157CA /* RecordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DCC46182C484586F30B6670E /* RecordView.swift */,
+				6C4492789CEE77FA5DB2FDE3 /* RecordViewModel.swift */,
+			);
+			path = RecordScreen;
+			sourceTree = "<group>";
+		};
+		F305370B9D37D0B206C0A99C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				700192E709C4295F256863AE /* LifeStageBadge.swift */,
+				79DEFE2A95252F57F0681B06 /* ModelDownloadCard.swift */,
+				335887B5B1795C488C96B491 /* MonthlyBarChart.swift */,
+				137A39854D60DA9BFE8A1B37 /* ResultCard.swift */,
+				E35772D0845E69DFC8CB9B43 /* ShareableFieldNotesCard.swift */,
+				CA905B97B386205BD0936636 /* SightingMapCard.swift */,
+				C5C8C3A8852910108CF56CCB /* SightingMapPin.swift */,
+				BBC89E1179D15FD65ABA0B1C /* SightingRow.swift */,
+				459D9E044913D97CA9F06D29 /* SpeciesRow.swift */,
+				52C6D014889C9E8A74892623 /* WaveformView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2185E62CFC2DC4E2EA1E1525 /* GardenEar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886EE2DC8BD6853CD60F6DD9 /* Build configuration list for PBXNativeTarget "GardenEar" */;
+			buildPhases = (
+				5AB9B3F9449A4711A0CEDF44 /* [CP] Check Pods Manifest.lock */,
+				0A2F4C7FF05616F933D98F88 /* Sources */,
+				DAA3366C28382F81C868A116 /* Resources */,
+				344058F46BB1E6F23D249712 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GardenEar;
+			packageProductDependencies = (
+				1961FF7985C28BBC21DE18F1 /* SQLite */,
+			);
+			productName = GardenEar;
+			productReference = 85204B07D08AA31DB1767C8A /* GardenEar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DCE0AAE9FB764051253CF80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 324F336113F9D275C3D616A4 /* Build configuration list for PBXProject "GardenEar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 704498ECD19B97DB97725C38;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B019D5E65E9121BACA1C0374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2185E62CFC2DC4E2EA1E1525 /* GardenEar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA3366C28382F81C868A116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD879B00096BB7B7F145798 /* Assets.xcassets in Resources */,
+				63A9B8284D43DC0723A3E76C /* BirdNET_GLOBAL_6K_V2.4_Labels.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB9B3F9449A4711A0CEDF44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GardenEar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2F4C7FF05616F933D98F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7591BB821D8C8A1B2C4EA07F /* AppIconGenerator.swift in Sources */,
+				9ECB0641DE1473E5620779A6 /* AudioIdentificationService.swift in Sources */,
+				C502F5CF771493484531F277 /* BirdNETLocalProvider.swift in Sources */,
+				E9FE513914CDDBC4FC868351 /* BirdNETProvider.swift in Sources */,
+				B31AE954662956F46325B2B4 /* BirdSoundClassifierProvider.swift in Sources */,
+				2D498A5969B6C312E68B6E42 /* DatabaseManager.swift in Sources */,
+				7028D65877791E4C370DDEEB /* DeviceCapabilityService.swift in Sources */,
+				28021C872B9E8A0DF44351A3 /* GardenEarApp.swift in Sources */,
+				847E8715D82DF263B6186B40 /* JournalView.swift in Sources */,
+				8D17AB4272F22233A2FB87EC /* JournalViewModel.swift in Sources */,
+				1051903A2B59CEE5DDA57D5B /* LifeStageBadge.swift in Sources */,
+				146617A3CAF35D263F25FCC2 /* LocationService.swift in Sources */,
+				76019D642E7B843DAA04963D /* MapView.swift in Sources */,
+				B1F9EE297A1F8DF273BD7D05 /* MapViewModel.swift in Sources */,
+				064B9B197058A2DABF8CD3EC /* ModelDownloadCard.swift in Sources */,
+				5B1AFFC105938FA0F160C15E /* MonthlyBarChart.swift in Sources */,
+				9897312868894E2F08B92D0E /* MonthlyScore.swift in Sources */,
+				2FCF418EDF2F140802908B99 /* NatureLMProvider.swift in Sources */,
+				89AC44E43A93DFFB7E667442 /* NatureLMService.swift in Sources */,
+				2464D45C9A9D2ABF4D4D8074 /* NetworkMonitor.swift in Sources */,
+				BDA3FA3B83E57FF553310B11 /* OfflineModelManager.swift in Sources */,
+				44BCFE23D0161EF1149CFDA6 /* RecordView.swift in Sources */,
+				DD2F24392C398110E240E905 /* RecordViewModel.swift in Sources */,
+				4C1D77ECBBDB687B8E5ACB66 /* ResultCard.swift in Sources */,
+				DDC6C6A879B3855A1667EB61 /* ScoreView.swift in Sources */,
+				918C588E46F5D054CB5358BB /* ScoreViewModel.swift in Sources */,
+				C28E739CC0329455862902D0 /* SettingsView.swift in Sources */,
+				1D1D6EDBEDEACBC3D3CE10ED /* ShareableFieldNotesCard.swift in Sources */,
+				B8946F0B8E42349227AA389D /* Sighting.swift in Sources */,
+				72032EB986D9D550C25780C4 /* SightingDetailView.swift in Sources */,
+				50A4144598AD6F2FFC864192 /* SightingDetailViewModel.swift in Sources */,
+				620F2D6DB4AC2B37E5805397 /* SightingMapCard.swift in Sources */,
+				DF8F8D767E08674C23FEE6C9 /* SightingMapPin.swift in Sources */,
+				6606CD69E241AFECA4121F06 /* SightingRow.swift in Sources */,
+				1A8743225AF609B2817257E9 /* SpeciesRow.swift in Sources */,
+				9363FEC552A82F18965C1F7B /* Theme.swift in Sources */,
+				536C50FC864F507FED31AC79 /* WaveformView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEF5EAAAADA639715060978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD0ABB3F514FD1243078DE4 /* Pods-GardenEar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HNC6FFPSWX;
+				INFOPLIST_FILE = GardenEar/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.gardenear;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35F01B2C00C83CB835ABE385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F1BFD17AFF34584B208FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEF90DFE626BAFE22534044 /* Pods-GardenEar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HNC6FFPSWX;
+				INFOPLIST_FILE = GardenEar/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.gardenear;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF201B6F092962DF21DAF950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324F336113F9D275C3D616A4 /* Build configuration list for PBXProject "GardenEar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F01B2C00C83CB835ABE385 /* Debug */,
+				EF201B6F092962DF21DAF950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		886EE2DC8BD6853CD60F6DD9 /* Build configuration list for PBXNativeTarget "GardenEar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEF5EAAAADA639715060978 /* Debug */,
+				8F1BFD17AFF34584B208FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = exactVersion;
+				version = 0.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1961FF7985C28BBC21DE18F1 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7DCE0AAE9FB764051253CF80 /* Project object */;
+}
