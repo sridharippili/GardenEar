@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -version)",
+      "Bash(xcodegen generate:*)",
+      "Bash(xcrun simctl *)",
+      "Bash(xcodebuild -workspace GardenEar.xcworkspace -scheme GardenEar -destination 'platform=iOS Simulator,id=3134FBE0-9997-4F39-9A8E-2E069DCEBB12' -configuration Debug build)",
+      "Bash(pod install *)"
+    ]
+  }
+}
