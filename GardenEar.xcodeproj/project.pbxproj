@@ -29,7 +29,6 @@
 		72032EB986D9D550C25780C4 /* SightingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BEDD1D563D5A00ACBDB12 /* SightingDetailView.swift */; };
 		7591BB821D8C8A1B2C4EA07F /* AppIconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A5E4902ED1B4D7BBDE711 /* AppIconGenerator.swift */; };
 		76019D642E7B843DAA04963D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60F3F65321B932D3A07DCF /* MapView.swift */; };
-		7C70B4C05E20EE37A6EB3235 /* Pods_GardenEar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AA9062FC74A7D986FB50C6B /* Pods_GardenEar.framework */; };
 		847E8715D82DF263B6186B40 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC0C9738B9FDE94DF2EFD39 /* JournalView.swift */; };
 		89AC44E43A93DFFB7E667442 /* NatureLMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE91805B53DD481EC6DCFD35 /* NatureLMService.swift */; };
 		8D17AB4272F22233A2FB87EC /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D44BAE742464DA2224532 /* JournalViewModel.swift */; };
@@ -58,7 +57,6 @@
 		18AF2322B28B2A1911FD05B5 /* BirdNET_GLOBAL_6K_V2.4_Labels.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BirdNET_GLOBAL_6K_V2.4_Labels.txt; sourceTree = "<group>"; };
 		1AE444F72ED53CDEBC7CF694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23317441FD7D09230B7808E0 /* NatureLMProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureLMProvider.swift; sourceTree = "<group>"; };
-		2AA9062FC74A7D986FB50C6B /* Pods_GardenEar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GardenEar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE1CB968027C09BAEFC3FAB /* MonthlyScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyScore.swift; sourceTree = "<group>"; };
 		335887B5B1795C488C96B491 /* MonthlyBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyBarChart.swift; sourceTree = "<group>"; };
 		365A0C4BAF10AF6554537555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -72,17 +70,15 @@
 		78E1D54FA1BDB9BFF83CF78A /* SightingDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingDetailViewModel.swift; sourceTree = "<group>"; };
 		79DEFE2A95252F57F0681B06 /* ModelDownloadCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDownloadCard.swift; sourceTree = "<group>"; };
 		7B9BEDD1D563D5A00ACBDB12 /* SightingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingDetailView.swift; sourceTree = "<group>"; };
-		85204B07D08AA31DB1767C8A /* GardenEar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85204B07D08AA31DB1767C8A /* GardenEar.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GardenEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868934444C2ED233B0C78193 /* GardenEarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenEarApp.swift; sourceTree = "<group>"; };
 		93BDE46568E5148BB046B8CB /* OfflineModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModelManager.swift; sourceTree = "<group>"; };
 		981CD8230EE9CCED7E47770F /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		9B489679E1BED04E870B266B /* BirdNETProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdNETProvider.swift; sourceTree = "<group>"; };
-		9DEF90DFE626BAFE22534044 /* Pods-GardenEar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardenEar.release.xcconfig"; path = "Target Support Files/Pods-GardenEar/Pods-GardenEar.release.xcconfig"; sourceTree = "<group>"; };
 		B53B79B20F6C65D5A5833442 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		B6A5D38D3B8616C9A44818B0 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		BBC89E1179D15FD65ABA0B1C /* SightingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingRow.swift; sourceTree = "<group>"; };
 		BBCBDA4F7E6B165867139154 /* AudioIdentificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioIdentificationService.swift; sourceTree = "<group>"; };
-		BDD0ABB3F514FD1243078DE4 /* Pods-GardenEar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GardenEar.debug.xcconfig"; path = "Target Support Files/Pods-GardenEar/Pods-GardenEar.debug.xcconfig"; sourceTree = "<group>"; };
 		C5C8C3A8852910108CF56CCB /* SightingMapPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingMapPin.swift; sourceTree = "<group>"; };
 		CA905B97B386205BD0936636 /* SightingMapCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingMapCard.swift; sourceTree = "<group>"; };
 		CE91805B53DD481EC6DCFD35 /* NatureLMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureLMService.swift; sourceTree = "<group>"; };
@@ -103,7 +99,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABFB29C6DE910BE31F472724 /* SQLite in Frameworks */,
-				7C70B4C05E20EE37A6EB3235 /* Pods_GardenEar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,14 +137,6 @@
 			path = MapScreen;
 			sourceTree = "<group>";
 		};
-		4573FF2493D28658CB11297B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2AA9062FC74A7D986FB50C6B /* Pods_GardenEar.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		49B515061BC217ECF4FE9B80 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,8 +164,6 @@
 			children = (
 				1733FB8BBACBAE711AF41F0A /* GardenEar */,
 				B019D5E65E9121BACA1C0374 /* Products */,
-				BF7B3FF1CB0833B7DE0B36C7 /* Pods */,
-				4573FF2493D28658CB11297B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -252,15 +237,6 @@
 			path = JournalScreen;
 			sourceTree = "<group>";
 		};
-		BF7B3FF1CB0833B7DE0B36C7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BDD0ABB3F514FD1243078DE4 /* Pods-GardenEar.debug.xcconfig */,
-				9DEF90DFE626BAFE22534044 /* Pods-GardenEar.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		C5D74F9EF4CC82BBC17D60E0 /* ScoreScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,7 +279,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 886EE2DC8BD6853CD60F6DD9 /* Build configuration list for PBXNativeTarget "GardenEar" */;
 			buildPhases = (
-				5AB9B3F9449A4711A0CEDF44 /* [CP] Check Pods Manifest.lock */,
 				0A2F4C7FF05616F933D98F88 /* Sources */,
 				DAA3366C28382F81C868A116 /* Resources */,
 				344058F46BB1E6F23D249712 /* Frameworks */,
@@ -328,6 +303,8 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 324F336113F9D275C3D616A4 /* Build configuration list for PBXProject "GardenEar" */;
 			developmentRegion = en;
@@ -339,7 +316,7 @@
 			mainGroup = 704498ECD19B97DB97725C38;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */,
+				DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B019D5E65E9121BACA1C0374 /* Products */;
@@ -362,31 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5AB9B3F9449A4711A0CEDF44 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GardenEar-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A2F4C7FF05616F933D98F88 /* Sources */ = {
@@ -438,11 +390,9 @@
 /* Begin XCBuildConfiguration section */
 		1DEF5EAAAADA639715060978 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD0ABB3F514FD1243078DE4 /* Pods-GardenEar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = HNC6FFPSWX;
 				INFOPLIST_FILE = GardenEar/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,11 +471,9 @@
 		};
 		8F1BFD17AFF34584B208FBCD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DEF90DFE626BAFE22534044 /* Pods-GardenEar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = HNC6FFPSWX;
 				INFOPLIST_FILE = GardenEar/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -619,7 +567,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+		DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
 			requirement = {
@@ -632,7 +580,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		1961FF7985C28BBC21DE18F1 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */;
+			package = DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
 			productName = SQLite;
 		};
 /* End XCSwiftPackageProductDependency section */
