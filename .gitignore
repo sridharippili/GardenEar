@@ -34,3 +34,5 @@ fastlane/test_output
 
 # App icons generator output
 *.xcassets/.gitignore
+.claude/
+GardenEar.xcodeproj/xcuserdata/
