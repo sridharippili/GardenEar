@@ -70,7 +70,7 @@
 		78E1D54FA1BDB9BFF83CF78A /* SightingDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingDetailViewModel.swift; sourceTree = "<group>"; };
 		79DEFE2A95252F57F0681B06 /* ModelDownloadCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDownloadCard.swift; sourceTree = "<group>"; };
 		7B9BEDD1D563D5A00ACBDB12 /* SightingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightingDetailView.swift; sourceTree = "<group>"; };
-		85204B07D08AA31DB1767C8A /* GardenEar.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GardenEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85204B07D08AA31DB1767C8A /* GardenEar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GardenEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868934444C2ED233B0C78193 /* GardenEarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenEarApp.swift; sourceTree = "<group>"; };
 		93BDE46568E5148BB046B8CB /* OfflineModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModelManager.swift; sourceTree = "<group>"; };
 		981CD8230EE9CCED7E47770F /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
@@ -303,8 +303,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 324F336113F9D275C3D616A4 /* Build configuration list for PBXProject "GardenEar" */;
 			developmentRegion = en;
@@ -316,7 +314,7 @@
 			mainGroup = 704498ECD19B97DB97725C38;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B019D5E65E9121BACA1C0374 /* Products */;
@@ -393,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HNC6FFPSWX;
 				INFOPLIST_FILE = GardenEar/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,6 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HNC6FFPSWX;
 				INFOPLIST_FILE = GardenEar/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -567,7 +567,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+		DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
 			requirement = {
@@ -580,7 +580,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		1961FF7985C28BBC21DE18F1 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			package = DDFBEAD3DF669698407BF163 /* XCRemoteSwiftPackageReference "SQLite" */;
 			productName = SQLite;
 		};
 /* End XCSwiftPackageProductDependency section */
