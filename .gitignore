@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode build artefacts
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift Package Manager cache
+.build/
+.swiftpm/
+
+# Environment / secrets
+.env
+*.env
+
+# Archives & exports
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# App icons generator output
+*.xcassets/.gitignore
