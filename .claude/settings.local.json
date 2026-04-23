@@ -1,23 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(xcodebuild -version)",
-      "Bash(xcodegen generate:*)",
-      "Bash(xcrun simctl *)",
-      "Bash(xcodebuild -workspace GardenEar.xcworkspace -scheme GardenEar -destination 'platform=iOS Simulator,id=3134FBE0-9997-4F39-9A8E-2E069DCEBB12' -configuration Debug build)",
-      "Bash(pod install *)",
-      "Bash(git remote *)",
+      "Bash(git checkout *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git branch *)",
       "Bash(git push *)",
+      "Bash(gh pr create --base base --head feature/gardenear-app --title 'GardenEar iOS app — full session build \\(Prompts 1–7\\)' --body ' *)",
+      "Bash(git credential *)",
       "Bash(gh auth *)",
-      "Bash(git config *)",
-      "Read(//Users/sridharippili/**)",
-      "Bash(ssh -T git@github.com)",
-      "Bash(brew install *)",
-      "Bash(gh --version)",
-      "WebFetch(domain:github.com)"
+      "Bash(security find-internet-password *)"
     ]
   }
 }
